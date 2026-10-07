@@ -62,6 +62,28 @@ Reporte 3 — Turnos por especialidad: Mostrar la cantidad y/o listado de turnos
 Reporte 4 — Historial de turnos de un paciente: Permitir seleccionar un paciente y visualizar sus turnos anteriores y futuros, indicando:
 Fecha- Hora - Profesional - Especialidad - Estado.
 
+Explicación:
+El sistema va a estar dividido principalmente en dos proyectos:
+Biblioteca de Clases: va a contener las clases del sistema, el DbContext y los repositorios para trabajar con la base de datos.
+Windows Forms: va a contener las ventanas y formularios que va a utilizar el usuario.
+Por ejemplo, para guardar un nuevo turno, el usuario primero completa el formulario con los datos necesarios, como el paciente, profesional, fecha, hora y estado.
+Cuando presiona Guardar, se crea un objeto Turno con esos datos y se envía al repositorio mediante un método como:
+TurnoRepository.Agregar(turno)
+El repositorio se encarga de trabajar con el DbContext y guardar el turno en la base de datos usando Entity Framework Core.
+Por ejemplo:
+
+using var context = new ConsultorioContext();
+
+context.Turnos.Add(turno);
+context.SaveChanges();
+
+Antes de guardar el turno también se puede comprobar que el profesional no tenga otro turno en la misma fecha y horario.
+La clase Turno va a representar los datos del turno y va a estar relacionada con otras clases como Paciente y Profesional.
+Si el turno se guarda correctamente, Windows Forms mostrará un mensaje como "Turno guardado correctamente" y se podrá actualizar la lista de turnos.
+El funcionamiento general sería:
+Windows Forms → Repositorio → DbContext → Base de Datos
+De esta forma, cada parte del proyecto tiene una función diferente: Windows Forms se encarga de la interfaz, el repositorio del manejo de los datos y Entity Framework Core de guardar la información en la base de datos.
+
 
 
 
