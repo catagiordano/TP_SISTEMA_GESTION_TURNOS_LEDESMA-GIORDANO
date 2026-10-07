@@ -63,6 +63,7 @@ Reporte 4 — Historial de turnos de un paciente: Permitir seleccionar un pacien
 Fecha- Hora - Profesional - Especialidad - Estado.
 
 Explicación:
+
 El sistema va a estar dividido principalmente en dos proyectos:
 Biblioteca de Clases: va a contener las clases del sistema, el DbContext y los repositorios para trabajar con la base de datos.
 Windows Forms: va a contener las ventanas y formularios que va a utilizar el usuario.
