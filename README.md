@@ -5,10 +5,13 @@
 El proyecto consiste en desarrollar un Sistema de Gestión de Turnos para un consultorio, su objetivo principal es permitir administrar de manera organizada los turnos de atención de los pacientes.
 El sistema permitirá registrar y administrar información de pacientes, profesionales, especialidades y turnos. A través de una aplicación de escritorio desarrollada en Windows Forms, se podrán realizar operaciones de alta, baja, modificación y consulta de los datos.
 Las principales entidades del sistema serán:
-- Paciente: representa a la persona que solicita un turno.
-- Profesional: representa al médico o profesional que brinda la atención.
-- Especialidad: representa la especialidad médica del profesional.
-- Turno: representa una reserva de atención entre un paciente y un profesional en una fecha y horario determinados.
+- Paciente	Persona que solicita el turno (nombre, DNI, teléfono, email, obra social).
+- Profesional	Médico que atiende (nombre, matrícula, especialidad, teléfono).
+- Especialidad	Área médica del profesional (Clínica Médica, Pediatría, etc.).
+- Turno	Entidad central: reserva de un paciente con un profesional en fecha/hora y estado.
+- Consultorio / Agenda	Espacio y disponibilidad donde se atiende el turno.
+- EstadoTurno	Estado del turno (Pendiente, Confirmado, Atendido, Cancelado, Ausente).
+- ObraSocial	Cobertura médica del paciente.
 
 2. OBJETIVOS Y FUNCIONALIDADES PREVISTAS:
 Objetivos específicos:
