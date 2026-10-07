@@ -48,7 +48,7 @@ Cancelado
 
 Diagrama De Clases:
 
-https://docs.google.com/document/d/1FWxSL02NaZJ-910GnsL6LLK4P11BqdZ1JmaS7OabKVs/edit?tab=t.0 
+https://docs.google.com/document/d/1FWxSL02NaZJ-910GnsL6LLK4P11BqdZ1JmaS7OabKVs/edit?tab=t.0
 
 4. REPORTES:
 
