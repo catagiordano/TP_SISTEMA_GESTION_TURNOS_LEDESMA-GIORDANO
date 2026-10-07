@@ -46,6 +46,10 @@ Pendiente
 Atendido
 Cancelado
 
+Diagrama De Clases:
+
+https://docs.google.com/document/d/1FWxSL02NaZJ-910GnsL6LLK4P11BqdZ1JmaS7OabKVs/edit?tab=t.0 
+
 4. REPORTES:
 
 Reporte 1 — Turnos del día: Mostrar todos los turnos correspondientes a una fecha determinada.
@@ -58,9 +62,6 @@ Reporte 3 — Turnos por especialidad: Mostrar la cantidad y/o listado de turnos
 Reporte 4 — Historial de turnos de un paciente: Permitir seleccionar un paciente y visualizar sus turnos anteriores y futuros, indicando:
 Fecha- Hora - Profesional - Especialidad - Estado.
 
-Diagrama De Clases:
-
-https://docs.google.com/document/d/1FWxSL02NaZJ-910GnsL6LLK4P11BqdZ1JmaS7OabKVs/edit?tab=t.0 
 
 
 
