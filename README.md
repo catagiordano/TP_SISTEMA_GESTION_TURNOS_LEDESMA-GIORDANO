@@ -12,13 +12,13 @@ Las principales entidades del sistema serán:
 
 2. OBJETIVOS Y FUNCIONALIDADES PREVISTAS:
 Objetivos específicos:
-1. Registrar y administrar los datos de los pacientes.
-2. Registrar y administrar los profesionales del consultorio.
-3. Administrar las especialidades médicas.
-4. Crear y gestionar turnos asignando un paciente a un profesional.
-5. Consultar los turnos registrados.
-6. Evitar la asignación de dos turnos al mismo profesional en la misma fecha y horario.
-7. Generar reportes que permitan obtener información útil sobre los turnos y las personas registradas.
+Registrar y administrar los datos de los pacientes.
+Registrar y administrar los profesionales del consultorio.
+Administrar las especialidades médicas.
+Crear y gestionar turnos asignando un paciente a un profesional.
+Consultar los turnos registrados.
+Evitar la asignación de dos turnos al mismo profesional en la misma fecha y horario.
+Generar reportes que permitan obtener información útil sobre los turnos y las personas registradas.
 
 3. FUNCIONALIDADES ABM:
 ABM de Pacientes Permitirá:
@@ -44,10 +44,14 @@ Atendido
 Cancelado
 
 4. REPORTES:
+
 Reporte 1 — Turnos del día: Mostrar todos los turnos correspondientes a una fecha determinada.
 Información: Hora - Paciente - Profesional - Especialidad - Estado del turno
+
 Reporte 2 — Turnos por profesional: Permitir seleccionar un profesional y consultar todos sus turnos dentro de un período determinado.
+
 Reporte 3 — Turnos por especialidad: Mostrar la cantidad y/o listado de turnos correspondientes a cada especialidad médica.
+
 Reporte 4 — Historial de turnos de un paciente: Permitir seleccionar un paciente y visualizar sus turnos anteriores y futuros, indicando:
 Fecha- Hora - Profesional - Especialidad - Estado.
 
